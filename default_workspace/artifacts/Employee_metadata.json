@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPersonDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_empID",
+						"type": "uint256"
+					}
+				],
+				"name": "setEmployeeDetails",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"default_workspace/Employee.sol": "Employee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"default_workspace/Employee.sol": {
+			"keccak256": "0x52c6309de328b65a708458db92d483091daafe3edd08fe187c786d81429f2ff4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f68c6e1a0f58272a6360a53b9dca910efd66fe91cdb2b4afb2f573dd0ecb8aa",
+				"dweb:/ipfs/QmXf8PyUetScGmxPXZjaTkKznSycxi9ssJpUJtXseAFX43"
+			]
+		},
+		"default_workspace/Inheritance.sol": {
+			"keccak256": "0x18961a0d90d7a293dbe472c3c3881df1b6db928db934144358e7e7c6276ddf76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0066f31dca04d88267139c62bd690a13eb704ec2e2eee3503834588202eaefa5",
+				"dweb:/ipfs/Qmf9WhwDwJ1J7sY9H58vkiwXgpaujz9mkTdnDrcoEcaYbK"
+			]
+		}
+	},
+	"version": 1
+}
