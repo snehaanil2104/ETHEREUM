@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Leapyear",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "Year",
+						"type": "uint16"
+					}
+				],
+				"name": "setYear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Activities-D1/Activity2.sol": "Activity2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Activities-D1/Activity2.sol": {
+			"keccak256": "0xd2424c05177a5238e0941947ea909489fcff90b5bc5688fb883d6d75fe16aec2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9db96185f997c03b6d138f0812628fd57b330f9e6b24ee2e643f549e4938c11b",
+				"dweb:/ipfs/QmNRXZVFevkZ7YiQi2Dw5JeSGQ3xK3S2sFArQZe8bMvdTB"
+			]
+		}
+	},
+	"version": 1
+}
