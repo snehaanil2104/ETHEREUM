@@ -171,11 +171,11 @@
 	},
 	"sources": {
 		"default_workspace/MyBook3.sol": {
-			"keccak256": "0x64a928ebedcd9f8fd274f9037bf660b17800cc18c2155447f95fc540d359c483",
+			"keccak256": "0x79add5920116e7e2999963369fa06a19a6fc300d853a511f8de7735713e9671a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd7eeb3a9d8d35380df15c1caa2a8aa310892a3a3bf5dd14994e231f475d8620",
-				"dweb:/ipfs/QmSH43vWnV6R3KoNLnoGxFKps9HThE7nwqx6RvLd9TpWkg"
+				"bzz-raw://3a43f52912d70a66b02c9658a41685843fbff9fce8639ea8028a7e9ced3cb9d2",
+				"dweb:/ipfs/QmPviNgym9CfrYgtBAcb7SmjEuxorL7v5E5raoz7jxMAq1"
 			]
 		}
 	},

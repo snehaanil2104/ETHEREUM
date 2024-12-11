@@ -27,7 +27,6 @@ contract MyBook3 {
 
    function buyBook() public payable {
     uint requiredAmount = ethToWei(price);
-    // require(!sold, "Book has already been sold");
     require(msg.value >= requiredAmount, "Insufficient payment; transaction reverted");
 
     uint bal = msg.value - requiredAmount;

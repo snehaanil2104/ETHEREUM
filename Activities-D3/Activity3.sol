@@ -10,6 +10,7 @@ struct emp{
 
     }
     emp public employee;
+
     function getEmployee()public view returns(string memory,string memory,string memory ,uint16,address payable ) {
         return (employee.name,employee.department,employee.designation,employee.salary, employee.paymentadd);
     }
@@ -29,7 +30,7 @@ struct emp{
             uint sal =ethTowei(employee.salary);
                         require(msg.value >= sal, "Insufficient payment amount");
                         require(employee.paymentadd != address(0), "Employee wallet not set");
-                        employee.paymentadd.transfer(sal);
+                       payable ( employee.paymentadd).transfer(sal);
             }
        
 }

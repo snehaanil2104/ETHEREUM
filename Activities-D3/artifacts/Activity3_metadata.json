@@ -144,7 +144,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Activities-D1/Activity3.sol": "Activity3"
+			"Activities-D3/Activity3.sol": "Activity3"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -158,12 +158,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Activities-D1/Activity3.sol": {
-			"keccak256": "0x83ed13c67d8d839d0b0244714926cce2f445172ed27ee25c7193748672d25755",
+		"Activities-D3/Activity3.sol": {
+			"keccak256": "0x324af754140913cb2c79071c4cdbffb66c265ddcde1d67d931ee2e4b5eedac90",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e99e69fcfc9cccd23372ec201ca75454e2dc75a00eb9f41b0ee74c5ebe3fc624",
-				"dweb:/ipfs/QmWDaDpAoNzQYKh9iNDwbBXgkydjgt53gdrmyteE27dPxV"
+				"bzz-raw://74631efdf1540dddceb73e34c9a1a6b596ddda70e3e044a9e9e5b123e4968052",
+				"dweb:/ipfs/QmXbNobPU7iekVv6mViipWSUKLM6EzpoJw5J9QDu8P2cQX"
 			]
 		}
 	},
